@@ -1,0 +1,6 @@
+.history
+*-backups
+*.log
+*.step
+/production
+/bom
