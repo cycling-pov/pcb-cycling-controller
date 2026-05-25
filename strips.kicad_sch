@@ -619,7 +619,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -630,7 +630,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -639,8 +639,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -671,7 +671,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -704,10 +704,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x05_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -717,14 +717,190 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(rectangle
@@ -772,7 +948,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -790,7 +966,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -808,7 +984,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -826,7 +1002,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -836,24 +1012,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1625,20 +1783,9 @@
 		)
 		(uuid "1574ca88-124c-400f-8f46-dc133ace8521")
 	)
-	(text "Anti-Alias Filter\nfc = 482 Hz"
-		(exclude_from_sim no)
-		(at 124.206 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3676b29d-35c1-4104-9787-05b6917e30dd")
-	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 256.032 58.42 0)
+		(at 256.032 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1649,7 +1796,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 256.032 106.68 0)
+		(at 256.032 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1704,9 +1851,9 @@
 		)
 		(uuid "8ca4bd88-1323-40d5-8893-ad01c123b054")
 	)
-	(text "Scale 0-5V input to\n0-2.62V output (x0.524)\n\nESP32-S3 A/D input is\nless linear above 2.7V"
+	(text "SC4011 Output Range:\n0.8-2.6V\nNo scaling should be required.\n\nESP32-S3 A/D input is\nless linear above 2.7V"
 		(exclude_from_sim no)
-		(at 30.734 63.5 0)
+		(at 25.4 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1738,16 +1885,17 @@
 		)
 		(uuid "b8cc6116-8a30-476f-bfdd-9ab589e282a9")
 	)
-	(text "SENSOR"
+	(text "SENSOR CONNECTOR"
 		(exclude_from_sim no)
-		(at 256.032 104.14 0)
+		(at 34.29 20.574 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
 			)
-			(justify left)
 		)
-		(uuid "c66f3a31-9b9c-4be0-89b5-03e0fa2d97c8")
+		(uuid "bc101c96-54eb-4c89-8d87-14e9138e189c")
 	)
 	(text "LED_D"
 		(exclude_from_sim no)
@@ -1759,17 +1907,6 @@
 			(justify left)
 		)
 		(uuid "d78ca088-4b1d-480e-86b3-195961313063")
-	)
-	(text "SENSOR"
-		(exclude_from_sim no)
-		(at 256.032 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "da2c5fd7-5d94-4b23-9929-298f1344a261")
 	)
 	(text "SENSOR\nSCALING\nAND\nFILTERING"
 		(exclude_from_sim no)
@@ -1806,28 +1943,10 @@
 		(uuid "fcbe2f34-9b28-4346-9bb7-2b18cbc474b8")
 	)
 	(junction
-		(at 97.79 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05c1d2d1-6398-4e34-ac10-fc280042c344")
-	)
-	(junction
 		(at 115.57 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ea1d950-3d1d-43b2-809b-0664aa5326b4")
-	)
-	(junction
-		(at 60.96 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19a98482-a33a-474a-80c8-7a1042f2b127")
-	)
-	(junction
-		(at 115.57 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "330f656b-8782-4d1a-bac7-329848a63f48")
 	)
 	(junction
 		(at 60.96 63.5)
@@ -1843,16 +1962,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 39.37) (xy 132.08 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "004e1e36-1aa1-46c1-b849-99d223dd428c")
-	)
-	(wire
-		(pts
 			(xy 85.09 73.66) (xy 85.09 74.93)
 		)
 		(stroke
@@ -1863,43 +1972,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 109.22) (xy 60.96 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074dc92d-4a40-411b-be14-336d22fb98ed")
-	)
-	(wire
-		(pts
-			(xy 60.96 96.52) (xy 60.96 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0821e76c-880e-4d43-a409-e9a1510f0ba5")
-	)
-	(wire
-		(pts
-			(xy 247.65 106.68) (xy 247.65 107.95)
+			(xy 247.65 104.14) (xy 247.65 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b2f382c-2de4-4e2d-bf02-d2c797fff739")
-	)
-	(wire
-		(pts
-			(xy 76.2 81.28) (xy 97.79 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc0ddb6-a2fb-4c4c-a49b-635eb652fdcf")
 	)
 	(wire
 		(pts
@@ -1933,43 +2012,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 86.36) (xy 60.96 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19e2e8b9-6010-4155-bd59-afe56aab3613")
-	)
-	(wire
-		(pts
-			(xy 95.25 101.6) (xy 97.79 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bd01c12-9731-4b72-9902-73e88d2a5c04")
-	)
-	(wire
-		(pts
-			(xy 247.65 106.68) (xy 248.92 106.68)
+			(xy 247.65 104.14) (xy 248.92 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c349689-15d6-4ae8-84ca-f8386136f94e")
-	)
-	(wire
-		(pts
-			(xy 97.79 81.28) (xy 97.79 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef66c3b-ec43-4602-bb32-6f43add3ee31")
 	)
 	(wire
 		(pts
@@ -1980,16 +2029,6 @@
 			(type default)
 		)
 		(uuid "1f8a30ba-66a6-4d63-84a8-2f72fec5f269")
-	)
-	(wire
-		(pts
-			(xy 242.57 104.14) (xy 242.57 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20028f41-0280-4c65-bb48-f1647f141394")
 	)
 	(wire
 		(pts
@@ -2013,13 +2052,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 102.87 101.6)
+			(xy 35.56 35.56) (xy 38.1 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27238192-1133-46f1-b733-bffc8dc896f8")
+		(uuid "27ec89ff-bc79-417e-a01f-4b726ddd5e50")
 	)
 	(wire
 		(pts
@@ -2063,16 +2102,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 115.57 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326317c7-eafc-42c3-9179-662e22f93c3b")
-	)
-	(wire
-		(pts
 			(xy 240.03 101.6) (xy 240.03 119.38)
 		)
 		(stroke
@@ -2080,16 +2109,6 @@
 			(type default)
 		)
 		(uuid "38f6a292-f8c4-47cc-9264-fdb475273704")
-	)
-	(wire
-		(pts
-			(xy 60.96 86.36) (xy 60.96 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39d3d27d-0d9b-4f15-84a7-40861e12ac67")
 	)
 	(wire
 		(pts
@@ -2113,43 +2132,43 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 55.88) (xy 242.57 80.01)
+			(xy 35.56 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "477572cf-e404-4e2f-a177-0460ebabc6bd")
+		(uuid "43af1e77-2ec4-446a-b541-bd8caf8a845d")
 	)
 	(wire
 		(pts
-			(xy 242.57 80.01) (xy 240.03 80.01)
+			(xy 76.2 68.58) (xy 76.2 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51837e86-d824-4006-8c3a-30642c84df6e")
+		(uuid "570ac062-0abe-4f16-83c5-97e423637c02")
 	)
 	(wire
 		(pts
-			(xy 97.79 116.84) (xy 97.79 101.6)
+			(xy 38.1 35.56) (xy 38.1 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58d74f93-9f7e-48cb-8bdd-1ae8239f3beb")
+		(uuid "5a20805f-0340-42e8-b89d-60ee82e2915e")
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 132.08 49.53)
+			(xy 35.56 33.02) (xy 60.96 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c5930bf-c2cd-4992-a2fa-bdf2ca7435e3")
+		(uuid "5c361dbf-fd9e-4b67-90be-7ef2dec5863e")
 	)
 	(wire
 		(pts
@@ -2253,13 +2272,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 80.01 99.06)
+			(xy 97.79 66.04) (xy 97.79 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "853f4867-ad5b-4fc9-a537-e2041714e68b")
+		(uuid "7db44d47-8aa0-4676-ab15-aef770fcdb47")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862d8b20-fa51-4850-b967-532140cbaa69")
 	)
 	(wire
 		(pts
@@ -2283,43 +2312,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 111.76) (xy 115.57 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9259f969-6901-4e62-bf79-a2874c42bed3")
-	)
-	(wire
-		(pts
-			(xy 60.96 50.8) (xy 60.96 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "977f2c12-c2fd-4404-ad06-3dc57625cee2")
-	)
-	(wire
-		(pts
-			(xy 247.65 58.42) (xy 247.65 59.69)
+			(xy 247.65 55.88) (xy 247.65 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97e9600b-47c9-4258-9da8-2dc87e944724")
-	)
-	(wire
-		(pts
-			(xy 76.2 68.58) (xy 76.2 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a514a43-6997-40b9-82ba-2a60534ce2d8")
 	)
 	(wire
 		(pts
@@ -2333,26 +2332,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 104.14) (xy 76.2 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f15f478-7855-4d09-aa19-01d9ac808b39")
-	)
-	(wire
-		(pts
-			(xy 57.15 50.8) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8465d6-b7a3-48c9-9fe9-88e6a39e5485")
-	)
-	(wire
-		(pts
 			(xy 209.55 71.12) (xy 213.36 71.12)
 		)
 		(stroke
@@ -2360,16 +2339,6 @@
 			(type default)
 		)
 		(uuid "9fba0067-aed3-4c48-8921-97956e97d7cb")
-	)
-	(wire
-		(pts
-			(xy 115.57 101.6) (xy 115.57 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd40e99-d7a8-4bb0-a373-d95e7633fb83")
 	)
 	(wire
 		(pts
@@ -2413,36 +2382,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 109.22) (xy 85.09 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef7fe8f-1bac-4f6c-ba3b-5f62b108aef4")
-	)
-	(wire
-		(pts
-			(xy 248.92 104.14) (xy 242.57 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b50d7386-ac20-4506-8518-833c1678c06f")
-	)
-	(wire
-		(pts
-			(xy 60.96 99.06) (xy 60.96 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b712401f-c5d1-408e-a103-6b4b5d3bdccd")
-	)
-	(wire
-		(pts
 			(xy 115.57 66.04) (xy 115.57 68.58)
 		)
 		(stroke
@@ -2473,23 +2412,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 92.71) (xy 85.09 93.98)
+			(xy 38.1 30.48) (xy 38.1 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c91456cf-4e58-4cd9-b602-e23901266fd1")
-	)
-	(wire
-		(pts
-			(xy 76.2 116.84) (xy 97.79 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce140c78-7bed-4773-8ae0-175d3cf3dcb1")
+		(uuid "d0e85194-d5c1-4967-aca8-7fb3cd2ba1cc")
 	)
 	(wire
 		(pts
@@ -2533,43 +2462,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 123.19 101.6)
+			(xy 90.17 83.82) (xy 97.79 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e05ed1e4-f09f-4e6f-9c85-cfc38842308a")
+		(uuid "e4771a89-24f5-41ee-9444-c7b051e28907")
 	)
 	(wire
 		(pts
-			(xy 248.92 55.88) (xy 242.57 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e94d81-89c9-4736-8cc3-cfe873a5b84e")
-	)
-	(wire
-		(pts
-			(xy 247.65 58.42) (xy 248.92 58.42)
+			(xy 247.65 55.88) (xy 248.92 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e633779b-7b44-4177-ad0e-47737b4f02d2")
-	)
-	(wire
-		(pts
-			(xy 76.2 104.14) (xy 76.2 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8cb1026-0a46-4b59-a5fd-2f3c34062c09")
 	)
 	(wire
 		(pts
@@ -2613,37 +2522,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 128.27) (xy 240.03 128.27)
+			(xy 60.96 33.02) (xy 60.96 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f651ec34-715e-4025-957b-2f9a41bfe430")
-	)
-	(global_label "SENSOR_1"
-		(shape input)
-		(at 57.15 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "065ed9ea-ced9-4ebe-88e6-38083ca53b51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.4887 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "fb8e66b5-1014-4d69-9db9-6b4cd00fe528")
 	)
 	(global_label "STRIP2_C"
 		(shape input)
@@ -2669,7 +2554,7 @@
 			)
 		)
 	)
-	(global_label "SENSOR_1_FILT"
+	(global_label "SENSOR_FILT"
 		(shape output)
 		(at 123.19 66.04 0)
 		(fields_autoplaced yes)
@@ -2681,7 +2566,7 @@
 		)
 		(uuid "5259c6e6-8ed9-401e-9f76-61875796ee0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.508 66.04 0)
+			(at 138.3309 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2714,30 +2599,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SENSOR_1_FILT"
-		(shape output)
-		(at 123.19 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "985d7391-6756-4b74-9303-2508aa3f6ba0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.508 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -2778,78 +2639,6 @@
 		(uuid "af4fc852-6fd9-406c-b111-dd5905d591ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 197.7958 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SENSOR_2"
-		(shape output)
-		(at 240.03 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0ad6f06-4537-4a90-a9ee-2ef1944787d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.3687 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SENSOR_1"
-		(shape input)
-		(at 57.15 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4a0c13c-63c4-4d16-9b7c-f13e7ebad997")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.4887 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SENSOR_1"
-		(shape output)
-		(at 240.03 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e88d850b-169d-4930-9a1e-c77fc7933e20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.3687 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3194,8 +2983,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 254 101.6 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 254 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3205,7 +2994,7 @@
 		(dnp no)
 		(uuid "249aafbb-c824-4aae-9182-9f162e4e4923")
 		(property "Reference" "J7"
-			(at 252.73 94.234 0)
+			(at 252.73 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3215,8 +3004,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED1"
-			(at 256.54 104.1399 0)
+		(property "Value" "LED2"
+			(at 256.54 101.5999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,8 +3016,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 254 101.6 0)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+			(at 254 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3239,7 +3028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 101.6 0)
+			(at 254 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,8 +3038,19 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 254 101.6 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2847671"
+			(at 254 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3272,90 +3072,10 @@
 		(pin "4"
 			(uuid "e9e25fb2-8712-45ff-8eb2-16b8bb60b2e6")
 		)
-		(pin "5"
-			(uuid "acd46251-de07-4fed-bdfb-06178acb3f39")
-		)
 		(instances
 			(project "pcb-cycling-controller"
 				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 85.09 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2de5983b-30f4-48b4-8fda-4056f6b20c6c")
-		(property "Reference" "#PWR038"
-			(at 85.09 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 84.836 89.154 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 85.09 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09d357cb-c671-4e3f-9d7a-64304f690494")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3516,83 +3236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 132.08 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "36db4ea6-1b6e-44bb-a1cc-513e0c94a8ce")
-		(property "Reference" "#PWR036"
-			(at 132.08 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 131.826 35.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b67d8ac5-2478-4651-9617-5713370dde15")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 247.65 46.99 0)
 		(unit 1)
@@ -3614,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Value" "VLED"
+		(property "Value" "VLED1"
 			(at 247.65 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3664,95 +3307,6 @@
 			(project "pcb-cycling-controller"
 				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LMV321")
-		(at 87.63 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "511dfd82-07c7-4ee0-80ad-2360d96702e7")
-		(property "Reference" "U8"
-			(at 92.71 95.758 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV321"
-			(at 92.71 98.298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 87.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 87.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"
-			(at 87.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "52bdcac5-df3e-4146-a5f7-522e6348addd")
-		)
-		(pin "3"
-			(uuid "f4deb3c7-2843-4d98-bee5-8826300f376e")
-		)
-		(pin "4"
-			(uuid "c4cdd672-09a8-4859-a90e-4e00b2111e90")
-		)
-		(pin "5"
-			(uuid "49c7459c-0bec-4c68-a422-b50731050cb0")
-		)
-		(pin "1"
-			(uuid "dd29a6bd-37b6-4eae-959b-38f0cd81b76f")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3929,6 +3483,151 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 86.36 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5830d86e-2696-44c9-8e1a-0716a2333b30")
+		(property "Reference" "R31"
+			(at 86.36 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 86.614 82.804 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reel Fee" "0"
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0007"
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e53ebe0-b366-42aa-8cea-0c63e2f5b84e")
+		)
+		(pin "2"
+			(uuid "7fcc287b-76b6-4b9a-90cb-8661d9990efb")
+		)
+		(instances
+			(project "pcb-cycling-controller"
+				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 60.96 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -3972,7 +3671,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+		(property "Datasheet" ""
 			(at 60.96 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4070,152 +3769,6 @@
 			(project "pcb-cycling-controller"
 				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 106.68 101.6 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "623d1220-bb3c-44f4-a498-8c12969603f5")
-		(property "Reference" "R33"
-			(at 106.68 97.028 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 106.68 99.568 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 106.934 102.616 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1102T5E_C25950.pdf"
-			(at 106.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1102T5E_C25950.html"
-			(at 106.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1102T5E"
-			(at 106.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reel Fee" "0"
-			(at 106.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.0011"
-			(at 106.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 106.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C22978"
-			(at 106.68 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35e33c9f-289e-429c-b808-52d4453bf2da")
-		)
-		(pin "2"
-			(uuid "bb7c0070-5de3-4011-bb99-bde3d3bd9e64")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4324,7 +3877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 107.95 0)
+		(at 247.65 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4334,7 +3887,7 @@
 		(dnp no)
 		(uuid "676b2ef2-4d47-4af4-a15d-fa931f28492e")
 		(property "Reference" "#PWR084"
-			(at 247.65 114.3 0)
+			(at 247.65 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +3898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 111.76 0)
+			(at 247.65 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4355,7 +3908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 107.95 0)
+			(at 247.65 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +3919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 107.95 0)
+			(at 247.65 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4377,7 +3930,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 107.95 0)
+			(at 247.65 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14W_7.5x9mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 220.98 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4648,7 +4201,7 @@
 				)
 			)
 		)
-		(property "Value" "VLED"
+		(property "Value" "VLED2"
 			(at 247.65 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,83 +4257,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7bbee527-a8b0-4dad-ba60-1e03f5d19317")
-		(property "Reference" "#PWR092"
-			(at 132.08 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9094631e-f63d-4a01-b3a6-b0748b5d3c1f")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74AHCT125")
 		(at 220.98 119.38 0)
 		(unit 4)
@@ -4811,7 +4287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14W_7.5x9mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 220.98 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4908,83 +4384,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87bbf535-a6f0-4d28-a519-deb26dcaf76a")
-		(property "Reference" "#PWR037"
-			(at 60.96 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba95728b-2fa5-4e0c-94cc-5cb0845fe983")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 220.98 127 0)
 		(unit 1)
 		(body_style 1)
@@ -5055,98 +4454,6 @@
 			(project "pcb-cycling-controller"
 				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 115.57 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91849307-7713-4bc7-b35a-40bc0f10dccd")
-		(property "Reference" "C33"
-			(at 108.712 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 107.442 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 116.5352 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 115.57 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C307331"
-			(at 115.57 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4c89250-c956-4a55-9b7c-c5588f312cc4")
-		)
-		(pin "2"
-			(uuid "85cbf498-91b6-4052-959a-20ee1eb525c6")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5414,83 +4721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d7a7dd1-c955-49d1-9331-39e8bbddc1f2")
-		(property "Reference" "#PWR093"
-			(at 85.09 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c4c7709-d869-4f01-a79d-0f3198fa1b87")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 234.95 99.06 90)
 		(unit 1)
@@ -5586,6 +4816,83 @@
 			(project "pcb-cycling-controller"
 				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 38.1 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e96aec4-d9ff-4a65-af6c-fb7e339d7b5d")
+		(property "Reference" "#PWR046"
+			(at 38.1 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 37.846 24.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 38.1 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "103bfc75-d752-4536-b7de-e68af86229e4")
+		)
+		(instances
+			(project "pcb-cycling-controller"
+				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5746,8 +5053,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 254 53.34 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 254 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5757,7 +5064,7 @@
 		(dnp no)
 		(uuid "a96620e2-0935-41ce-aec8-4a15d5791a63")
 		(property "Reference" "J6"
-			(at 252.73 45.974 0)
+			(at 252.73 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5768,7 +5075,7 @@
 			)
 		)
 		(property "Value" "LED1"
-			(at 256.54 55.8799 0)
+			(at 256.54 53.3399 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,8 +5086,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 254 53.34 0)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+			(at 254 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,7 +5098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 53.34 0)
+			(at 254 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,8 +5108,19 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 254 53.34 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2847671"
+			(at 254 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5823,9 +5141,6 @@
 		)
 		(pin "4"
 			(uuid "0e1e47a5-a6cf-49d8-8b9a-707b57214134")
-		)
-		(pin "5"
-			(uuid "fa6adc38-3866-44e2-a5cf-4c7dccfccb8b")
 		)
 		(instances
 			(project "pcb-cycling-controller"
@@ -5908,155 +5223,6 @@
 			(project "pcb-cycling-controller"
 				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 60.96 105.41 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1722afc-43c0-49ec-8a64-92c092d33e40")
-		(property "Reference" "R32"
-			(at 62.865 104.775 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "11k"
-			(at 62.865 107.315 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 59.944 105.664 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1102T5E_C25950.pdf"
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1102T5E_C25950.html"
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1102T5E"
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reel Fee" "0"
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.0011"
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25950"
-			(at 60.96 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b0adef8-4d1c-4039-8e25-f8edde38b589")
-		)
-		(pin "2"
-			(uuid "3b1ade9a-234b-4995-8384-00f9678e1dfd")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6209,98 +5375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 132.08 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4163775-84bc-40c4-a477-3b991844b6a1")
-		(property "Reference" "C32"
-			(at 125.222 43.434 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 123.952 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 133.0452 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C307331"
-			(at 132.08 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "776259cf-ff48-4dc0-8e3f-7c03741190c8")
-		)
-		(pin "2"
-			(uuid "648b5bff-451f-461d-b214-ac4f7ad5d890")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 119.38 39.37 0)
 		(unit 1)
@@ -6378,8 +5452,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 60.96 92.71 0)
+		(lib_id "power:GND")
+		(at 38.1 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6387,32 +5461,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6427357-a8ff-401f-8d93-1d0cdbadfaff")
-		(property "Reference" "R31"
-			(at 62.865 92.075 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 62.865 94.615 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 61.976 92.964 90)
+		(uuid "cb0641a8-61bf-4df2-bc91-fe90e30e7521")
+		(property "Reference" "#PWR097"
+			(at 38.1 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,8 +5473,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
-			(at 60.96 92.71 0)
+		(property "Value" "GND"
+			(at 38.1 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,8 +5494,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 92.71 0)
+		(property "Datasheet" ""
+			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,63 +5505,8 @@
 				)
 			)
 		)
-		(property "Link" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 60.96 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 60.96 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reel Fee" "0"
-			(at 60.96 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.0007"
-			(at 60.96 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 60.96 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C25804"
-			(at 60.96 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6511,15 +5517,109 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f5efb8a-89d0-4e9b-9635-12d67f81fdf0")
-		)
-		(pin "2"
-			(uuid "c9ef5f15-0c52-4919-811a-2907cf5634c6")
+			(uuid "10efeeea-f6a1-4574-b7d4-8c60490b5bee")
 		)
 		(instances
 			(project "pcb-cycling-controller"
 				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "R31")
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 30.48 33.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dad104d4-20b3-494e-96a7-5ddac4c0871e")
+		(property "Reference" "J8"
+			(at 31.75 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SENSOR"
+			(at 27.94 35.5599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C29275"
+			(at 30.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "084ea03e-0409-4115-b25c-391b9ecba6ec")
+		)
+		(pin "3"
+			(uuid "f181c55d-3ca3-4100-bf3f-f6f49564779f")
+		)
+		(pin "1"
+			(uuid "a89bb3f3-602a-4938-bdb7-cd5e3e748761")
+		)
+		(instances
+			(project "pcb-cycling-controller"
+				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6559,7 +5659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14W_7.5x9mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 187.96 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6685,7 +5785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14W_7.5x9mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 220.98 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6845,6 +5945,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C7972"
+			(at 87.63 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5b090e82-8d6a-4ec1-b9e1-bbca599f3de2")
 		)
@@ -6947,83 +6058,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eba6bf91-4bb4-40fd-a801-a4f4d45eb6d2")
-		(property "Reference" "#PWR040"
-			(at 115.57 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d019b38-c2c3-479e-a430-7f3aac0e1819")
-		)
-		(instances
-			(project "pcb-cycling-controller"
-				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a/d65983a9-7697-49d7-ad64-8ce8391ab5ed"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74AHCT125")
 		(at 220.98 71.12 0)
 		(unit 2)
@@ -7054,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14W_7.5x9mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7159,7 +6193,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f1ab029c-ef70-49fd-a30c-b3ef514da1e7")
 		(property "Reference" "R13"
@@ -7377,7 +6411,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 59.69 0)
+		(at 247.65 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7387,7 +6421,7 @@
 		(dnp no)
 		(uuid "fb5d9d8d-0e3b-48e1-a209-493dc81d7f6b")
 		(property "Reference" "#PWR082"
-			(at 247.65 66.04 0)
+			(at 247.65 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7398,7 +6432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 63.5 0)
+			(at 247.65 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7408,7 +6442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 59.69 0)
+			(at 247.65 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7419,7 +6453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 59.69 0)
+			(at 247.65 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7430,7 +6464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 59.69 0)
+			(at 247.65 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

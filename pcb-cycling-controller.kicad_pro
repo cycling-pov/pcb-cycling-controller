@@ -195,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1524,
         0.2032,
         0.254,
         0.3048,
@@ -611,7 +612,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -684,6 +685,12 @@
           "label": "JLCPCB",
           "name": "JLCPCB",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -742,7 +749,7 @@
         "uuid": "ffeade77-fbf5-4d3a-8052-ea27942d440a"
       }
     ],
-    "used_designators": "J8",
+    "used_designators": "D8,#PWR36",
     "variants": []
   },
   "sheets": [
