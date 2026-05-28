@@ -3189,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.04) (xy 99.06 66.04)
+			(xy 72.39 71.12) (xy 99.06 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 81.28) (xy 99.06 81.28)
+			(xy 72.39 78.74) (xy 99.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3619,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 83.82) (xy 99.06 83.82)
+			(xy 72.39 73.66) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 86.36) (xy 99.06 86.36)
+			(xy 72.39 76.2) (xy 99.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4289,7 +4289,7 @@
 	)
 	(global_label "BATT_VOLTAGE"
 		(shape input)
-		(at 72.39 66.04 180)
+		(at 72.39 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4299,7 +4299,7 @@
 		)
 		(uuid "022384da-fcf1-432e-84b2-6714fe7fdea2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.221 66.04 0)
+			(at 56.221 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4361,7 +4361,7 @@
 	)
 	(global_label "BTN1"
 		(shape input)
-		(at 72.39 83.82 180)
+		(at 72.39 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4371,7 +4371,7 @@
 		)
 		(uuid "112f249e-34df-498b-878e-23550a8ab107")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6272 83.82 0)
+			(at 64.6272 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4721,7 @@
 	)
 	(global_label "SENSOR_FILT"
 		(shape input)
-		(at 72.39 81.28 180)
+		(at 72.39 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4731,7 +4731,7 @@
 		)
 		(uuid "b34921bf-a5e2-499f-aa1b-39b525742a5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.2491 81.28 0)
+			(at 57.2491 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4793,7 +4793,7 @@
 	)
 	(global_label "BTN2"
 		(shape input)
-		(at 72.39 86.36 180)
+		(at 72.39 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4803,7 +4803,7 @@
 		)
 		(uuid "e5a404f9-e706-499c-9371-39df2305fe41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6272 86.36 0)
+			(at 64.6272 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
