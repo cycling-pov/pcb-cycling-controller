@@ -2886,7 +2886,7 @@
 				)
 			)
 		)
-		(property "Value" "11k"
+		(property "Value" "22k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f4442e75-7111-4de4-922c-8aec700f479f")
@@ -2897,7 +2897,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1102T5E_C25950.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2984,7 +2984,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25950"
+		(property "LCSC Part #" "C31850"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3700,7 +3700,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9k"
+		(property "Value" "100k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "36a06d62-4440-4b4f-874f-dd336ef961a7")
@@ -3711,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4992T5E_C23184.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3798,7 +3798,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23184"
+		(property "LCSC Part #" "C25803"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

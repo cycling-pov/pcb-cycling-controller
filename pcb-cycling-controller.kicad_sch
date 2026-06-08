@@ -4504,6 +4504,17 @@
 		)
 		(uuid "f92e4720-9655-46f9-b194-6b4bf5152604")
 	)
+	(text "FB = 0.6V Nominal\nVout = 3.33V"
+		(exclude_from_sim no)
+		(at 204.216 54.356 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9e59b32-e6f1-493b-be1d-6001d3a1c416")
+	)
 	(junction
 		(at 151.765 33.02)
 		(diameter 0)
@@ -9156,7 +9167,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "49.9k"
+		(property "Value" "100k"
 			(at 200.025 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9178,7 +9189,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4992T5E_C23184.pdf"
+		(property "Datasheet" ""
 			(at 201.93 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -9255,7 +9266,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23184"
+		(property "LCSC Part #" "C25803"
 			(at 201.93 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -10838,7 +10849,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "11k"
+		(property "Value" "22k"
 			(at 200.025 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10860,7 +10871,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1102T5E_C25950.pdf"
+		(property "Datasheet" ""
 			(at 201.93 52.705 0)
 			(hide yes)
 			(show_name no)
@@ -10937,7 +10948,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25950"
+		(property "LCSC Part #" "C31850"
 			(at 201.93 52.705 0)
 			(hide yes)
 			(show_name no)
