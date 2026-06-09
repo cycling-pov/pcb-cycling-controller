@@ -691,6 +691,12 @@
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -749,7 +755,7 @@
         "uuid": "ffeade77-fbf5-4d3a-8052-ea27942d440a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "F1",
     "variants": []
   },
   "sheets": [

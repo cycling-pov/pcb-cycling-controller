@@ -2209,6 +2209,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -5047,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 35.56) (xy 24.13 35.56)
+			(xy 22.86 35.56) (xy 25.4 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5887,7 +6052,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 33.02) (xy 24.13 35.56)
+			(xy 38.1 33.02) (xy 38.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5924,6 +6089,16 @@
 			(type default)
 		)
 		(uuid "c6875921-52c4-43d6-a4e6-1e3250eab133")
+	)
+	(wire
+		(pts
+			(xy 33.02 35.56) (xy 38.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbad0d67-e5c6-4499-9977-d4db9168310b")
 	)
 	(wire
 		(pts
@@ -7727,7 +7902,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "11k"
+		(property "Value" "22k"
 			(at 114.935 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7826,7 +8001,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25950"
+		(property "LCSC Part #" "C31850"
 			(at 113.03 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8076,7 +8251,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 24.13 33.02 0)
+		(at 38.1 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8086,7 +8261,7 @@
 		(dnp no)
 		(uuid "3503c939-f589-4c2c-9630-ac4540478db6")
 		(property "Reference" "#PWR01"
-			(at 24.13 36.83 0)
+			(at 38.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +8272,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 24.13 29.464 0)
+			(at 38.1 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8107,7 +8282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 33.02 0)
+			(at 38.1 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,7 +8293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 33.02 0)
+			(at 38.1 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8129,7 +8304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 24.13 33.02 0)
+			(at 38.1 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13476,7 +13651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "jlcpcb:CONN-TH_KF2510-2AW"
 			(at 17.78 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13509,7 +13684,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C27543"
+		(property "LCSC Part #" "C30436"
 			(at 17.78 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14086,6 +14261,108 @@
 			(project "pcb-cycling-controller"
 				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 29.21 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea013387-739c-471c-ad58-820c77f84af9")
+		(property "Reference" "F1"
+			(at 25.654 33.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5A"
+			(at 34.544 33.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 34.29 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 29.21 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C883153"
+			(at 29.21 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C883153"
+			(at 29.21 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "be2197e8-2487-49cd-8182-b27c4018ccc6")
+		)
+		(pin "1"
+			(uuid "737acd5b-7b3c-4c89-be67-aac8014ae062")
+		)
+		(instances
+			(project "pcb-cycling-controller"
+				(path "/ffeade77-fbf5-4d3a-8052-ea27942d440a"
+					(reference "F1")
 					(unit 1)
 				)
 			)
