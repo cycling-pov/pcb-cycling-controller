@@ -7435,17 +7435,6 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 95.25 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C7432770"
 			(at 95.25 33.02 0)
 			(hide yes)
@@ -7529,17 +7518,6 @@
 		)
 		(property "Description" ""
 			(at 43.18 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C318884"
-			(at 43.18 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,17 +8179,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C318884"
-			(at 93.98 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C318884"
 			(at 93.98 187.96 0)
 			(hide yes)
@@ -8532,17 +8499,6 @@
 		)
 		(property "Description" ""
 			(at 43.18 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C318884"
-			(at 43.18 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11280,17 +11236,6 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 254 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C15849"
 			(at 254 124.46 0)
 			(hide yes)
@@ -11712,17 +11657,6 @@
 		)
 		(property "Description" ""
 			(at 93.98 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C318884"
-			(at 93.98 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12234,6 +12168,17 @@
 			)
 		)
 		(property "Description" "Small, low power inertial measurement unit, LGA-14"
+			(at 172.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C7544197"
 			(at 172.72 45.72 0)
 			(hide yes)
 			(show_name no)
